@@ -1,0 +1,52 @@
+.hidden {
+  display: none;
+}
+
+.breed-select {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 0;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 18px;
+  width: 100%;
+  max-width: 380px;
+}
+
+.container {
+  padding: 10px;
+  width: 50%;
+}
+.cat-info {
+  width: fit-content;
+}
+img {
+  margin-top: 20px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.error {
+  color: red;
+}
+
+.loading {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 3px solid #4c4a4a;
+  border-right: 3px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
